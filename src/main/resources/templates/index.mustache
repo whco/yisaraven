@@ -1,10 +1,33 @@
 {{>layout/header}}
-    <h1>Spring Boot Web Service Practice</h1>
+<!--    <h1>Spring Boot Web Service Practice</h1>-->
+<h1>헉!! 여기에 글을 써보세요!!!</h1>
     <div class="col-md-12">
         <div class="row">
             <div class="col-md-6">
                 <a href="/post/save" role="button" class="btn btn-primary">글 등록</a>
             </div>
         </div>
+        <br>
+        <table class="table table-horizontal table-bordered">
+            <thead class="thread-string">
+
+            <tr>
+                <th>게시글 번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>최종수정일</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            {{#post}}
+                <tr>
+                    <td>{{id}}</td>
+                    <td>{{title}}</td>
+                    <td>{{author}}</td>
+                    <td>{{modifiedDate}}</td>
+                </tr>
+            {{/post}}
+            </tbody>
+        </table>
     </div>
 {{>layout/footer}}
