@@ -1,7 +1,7 @@
 package com.yisaraven.service.post;
 
-import com.yisaraven.web.domain.post.Post;
-import com.yisaraven.web.domain.post.PostRepository;
+import com.yisaraven.domain.post.Post;
+import com.yisaraven.domain.post.PostRepository;
 import com.yisaraven.web.dto.PostListResponseDto;
 import com.yisaraven.web.dto.PostResponseDto;
 import com.yisaraven.web.dto.PostSaveRequestDto;

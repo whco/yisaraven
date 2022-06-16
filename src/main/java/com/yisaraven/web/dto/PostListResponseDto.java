@@ -1,6 +1,6 @@
 package com.yisaraven.web.dto;
 
-import com.yisaraven.web.domain.post.Post;
+import com.yisaraven.domain.post.Post;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

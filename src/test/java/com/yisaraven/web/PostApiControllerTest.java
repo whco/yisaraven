@@ -1,7 +1,7 @@
 package com.yisaraven.web;
 
-import com.yisaraven.web.domain.post.Post;
-import com.yisaraven.web.domain.post.PostRepository;
+import com.yisaraven.domain.post.Post;
+import com.yisaraven.domain.post.PostRepository;
 import com.yisaraven.web.dto.PostSaveRequestDto;
 import com.yisaraven.web.dto.PostUpdateRequestDto;
 import org.junit.After;

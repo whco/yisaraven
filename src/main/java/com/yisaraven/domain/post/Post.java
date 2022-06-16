@@ -1,6 +1,6 @@
-package com.yisaraven.web.domain.post;
+package com.yisaraven.domain.post;
 
-import com.yisaraven.web.domain.BaseTimeEntity;
+import com.yisaraven.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

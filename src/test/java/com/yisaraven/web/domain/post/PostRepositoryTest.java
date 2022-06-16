@@ -1,5 +1,7 @@
 package com.yisaraven.web.domain.post;
 
+import com.yisaraven.domain.post.Post;
+import com.yisaraven.domain.post.PostRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

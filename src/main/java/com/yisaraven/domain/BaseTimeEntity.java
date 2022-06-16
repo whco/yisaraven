@@ -1,4 +1,4 @@
-package com.yisaraven.web.domain;
+package com.yisaraven.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
