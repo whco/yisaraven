@@ -11,5 +11,7 @@ spring:
     url: jdbc:h2:mem:testdb
 #    driverClassName: org.h2.Driver
 #    database-platform: org.hibernate.dialect.H2Dialect
+  session:
+    store-type: jdbc
   profiles:
     include: oauth
